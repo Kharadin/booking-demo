@@ -1,0 +1,252 @@
+.hotelPageContainer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-self: center;
+     width: 100%;
+}
+
+
+.hotelContainer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.hotelWrapper {
+     width: 100%;
+     max-width: 1024px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      /*  if you are using position absolute, make it's parent a position relative */
+}
+
+.bookNow{
+     position: absolute;
+     /* top: 10px; */
+     top: 0px;
+     right: 0;
+     border: none;
+     padding: 10px 20px;
+     background-color: #0071c2;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 5px;
+
+}
+
+.hotelTitle{
+     font-size: 24px;
+}
+
+.hotelAddress{
+     font-size: 12px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+
+}    
+.hotelDistance {
+     color: #0071c2;
+     font-weight: 500;
+     
+}
+
+.hotelPriceHighlight {
+     color: #008009;
+     font-weight: 500;
+} 
+
+.hotelImages{
+     
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: start;
+     gap: 10px;
+}
+.hotelImgWrapper{
+     box-sizing: border-box;
+     width: 31%;
+     height: 29vh;
+}
+
+.hotelImg{
+     
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+
+.hotelDetails{
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+     margin-top: 20px;
+}
+
+.hotelDetailsTexts{
+     flex:3;
+}
+
+.hotelDesc{
+     font-size: 14px;
+     margin-top: 20px;
+
+}
+
+.hotelDetailsPrice{
+     flex: 1;
+     background-color: #ebf3ff ;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     }
+
+.hotelDetailsPrice>h1{
+     font-size: 18px;
+     color: #555;
+}
+
+
+.hotelDetailsPrice>span{
+     font-size: 14px;
+    
+}
+.hotelDetailsPrice>h2{
+     font-weight: 300;
+}
+
+.hotelDetailsPrice>button{
+     
+     border: none;
+     padding: 10px 20px;
+     background-color: #0071c2;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+.slider {
+     position: sticky;
+     top: -20px;
+     left: 0;
+     width: 100%;
+     height: 100%;
+
+     background-color: rgba(0, 0, 0, 0.613) ;
+     z-index: 888;
+     display: flex;
+     align-items: center;
+
+}
+
+.sliderWrapper{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.sliderImg{
+  width: 100%;
+  /* height: 80vh; */
+}
+
+.close{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     font-size: 30px;
+     color: lightgray;
+     cursor: pointer;
+}
+
+.arrow{
+     margin: 20px;
+     font-size: 50px;
+     color: lightgray;
+     cursor: pointer;
+}
+
+.roomsContainer{
+     display: flex;
+     width: 100%;
+     max-width: 1024px;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+     /* display: none; */
+
+
+}
+
+.roomsWrapper {
+     width: 100%;
+     max-width: 1024px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      /*  if you are using position absolute, make it's parent a position relative */
+}
+
+.roomsTable {
+     display: block;
+}
+.tableHeader {
+     display: flex;
+     background-color: #0071c2;
+     color: white;
+     font-weight: bold;
+     padding: 3px;
+}
+.tableRow{
+     display: flex;
+     padding: 10px;
+     cursor: pointer;
+
+}
+.col1 {
+     flex: 5;
+     display: flex;
+
+}
+.roomTitleDesc {
+     display: block;
+     flex: 6
+}
+.hotelRoomDesc{
+     /* margin-top: 12px; */
+     margin-bottom: 8px;
+     font-weight: 300;
+}
+.roomTablePrice {
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.hotelRoomTitle {
+     font-weight: bold;
+}
+.col2 {
+     flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.col3 {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

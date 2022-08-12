@@ -1,0 +1,52 @@
+ .pList{
+     width: 100%;
+     max-width: 1024px;
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+     flex-wrap: wrap;
+ }
+
+ .pListItemDeselected{
+    box-sizing: border-box;
+     flex:1;
+     /* this is to make all them one width. enabled by display flex above */
+    min-width: 188px;
+     border-radius: 10px;
+     border: 1px dotted white;
+      overflow: hidden;
+     cursor: pointer;
+      /* /  height: 150px; */
+      transition: all 500ms ease;
+ }
+
+ .pListItemSelected  {
+    color: #3a7999;
+    box-sizing: border-box;
+    flex:1;
+    /* this is to make all them one width. enabled by display flex above */
+   min-width: 188px;
+    border-radius: 10px;
+    border: 1px dotted #3a7999;
+     overflow: hidden;
+     transition: all 500ms ease;
+    
+    /* cursor: pointer; */
+     /* /  height: 150px; */
+ }
+ 
+ .pListImg{
+     width: 100%;
+     height: 150px;
+     object-fit: cover; 
+ }
+
+ .pListTitles>h1{
+     font-size: 18px;
+   
+    text-transform: capitalize;
+ }
+ .pListTitles>h2{
+     font-size: 14px;
+     font-weight: 300;
+ }

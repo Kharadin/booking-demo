@@ -1,0 +1,11 @@
+.pageSelectorBar {
+     width: 129px;
+     display: flex;
+     justify-content: space-evenly;
+     
+}
+
+.pageSelectorBar span {
+     text-align: center;
+     cursor: pointer;;
+}

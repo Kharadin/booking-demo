@@ -1,0 +1,255 @@
+.reserveContainer {
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+}
+
+.reserve {
+     z-index: 10;
+     width: 100vw;
+     height: 100%;
+     background-color: rgba(0,0,0,0.418);
+     position: fixed;
+     top: 0px;;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+}  
+
+.rmSlider {
+    
+     z-index: 30;
+     width: 100vw;
+     height: 100%;
+     background-color: rgba(0,0,0,0.418);
+     position: fixed;
+     top:0;
+     left: 0;
+    
+     /* position: sticky;
+     z-index: 999;
+     top: -20px;
+     left: 0;
+     width: 100%;
+     height: 100%; */
+     display: flex;
+     align-items: center;
+
+     background-color: rgba(0, 0, 0, 0.613);
+
+}
+.rmSliderWrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.rmSliderImg {
+       /* width: 1024px; */
+        width: 100%;
+
+       /* max-width: 80%; */ 
+          /* height: 80vh; */
+       
+}
+
+.rmSliderClose {
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     font-size: 30px;
+     color: lightgray;
+     cursor: pointer;
+}
+
+.arrow {
+     margin: 20px;
+     font-size: 50px;
+     color: lightgray;
+     cursor: pointer;
+}
+
+.roomWrapper{
+   
+     z-index: 20;
+     
+     position:relative;
+     overflow: auto;
+     height: 100%;
+     /* top: 5vh; */
+
+     background-color: white;
+     padding: 20px;
+     
+
+     width: 100%;
+     max-width: 1024px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    
+     /* gap: 10px; */
+     /* position: relative; */
+}
+
+.rClose {
+
+     position:absolute;
+     top: 40px;
+     right: 20px ;
+     cursor: pointer;
+     font-size:x-large;
+}
+.roomHeader {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-self: start;
+     margin-bottom: 12px;
+   
+}
+.roomTitle{
+     
+          font-weight: 500;
+          margin-bottom: 20px;
+}
+.roomDesc{
+     
+     margin-bottom: 5px;
+     font-weight: 400;
+}
+.roomPrice {
+     font-weight: 500;
+}
+.maxPeople{
+   color:green;
+}
+.roomImages{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: start;
+}
+.roomImgWrapper {
+     width: 22%;
+}
+
+.roomImg {
+     width:100%;
+     object-fit: cover;
+
+}
+
+.roomDetails {
+     margin-top: 50px;
+     margin-bottom: 20px;
+     align-self: start;
+     text-align: left;
+     font-size: 16px;
+}
+.roomBooking {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.rmBookingHeading {
+     color: #0071c2;
+     margin-bottom: 10px;
+     
+}
+
+.rmBookingDates{
+    color: #0071c2;
+}
+
+/* 
+.rItem {
+     display: flex;
+     align-items: center;
+     gap: 50px;
+     padding: 20px;
+     
+}
+
+.rInfo{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     
+}
+.rTitle {
+     font-weight: 500;
+}
+.rDesc {
+     font-weight: 300;
+}
+.rMax {
+     font-size: 12px;
+}
+
+.rPrice {
+     font-weight: 500;
+} */
+
+.rSelectRooms {
+     
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap ;
+     gap: 5px;
+     
+     color:  black;
+     margin: 20px;
+
+}
+
+
+
+.room {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color:  black;
+     margin: 0px 12px 0px 12px;
+}
+.room label {
+     font-size: 18px;
+}
+.room .statusUnavail {
+     font-size: 8px;
+     color: grey;
+
+}
+
+.checkbox {
+     transform: scale(2);
+     
+     margin: 4px;
+     /* outline: 2px solid deeppink; */
+}
+/* input  {
+      color: #0071c2;
+      outline: 2px solid deeppink;
+} */
+
+.rButton{
+     top: 10px;
+     position: relative;
+     border: none;
+     padding: 10px 20px;
+     background-color: #0071c2;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 5px;
+     width: 100%;
+     margin: 20px;
+ 
+}
