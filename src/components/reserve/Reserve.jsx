@@ -3,13 +3,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import axios from "axios"
 import { isLastDayOfMonth } from "date-fns"
 import { useContext, useEffect, useState } from "react"
+
+import { AuthContext } from '../../context/AuthContext'
 import { useNavigate } from "react-router-dom"
-import { SearchContext } from "../../context/SearchContext"
+
 import useFetch from "../../hooks/useFetch"
 import "./reserve.css"
 
 
 const Reserve = ({setOpen, hotelId, roomId}) => {
+
+  const {user} = useContext(AuthContext);
 
     const [selectedRooms, setSelectedRooms] = useState([]);
 
@@ -57,14 +61,20 @@ const Reserve = ({setOpen, hotelId, roomId}) => {
 
 
      const handleSelect = (e)=> {
-          const checked = e.target.checked
-          const value= e.target.value
-          setSelectedRooms(
-                    checked ? 
-                      [...selectedRooms, value]:
-                       selectedRooms.filter((item)=> item !==value)
-
-                    );
+         
+          if (user) {
+            
+            const checked = e.target.checked
+            const value= e.target.value
+            setSelectedRooms(
+              checked ? 
+              [...selectedRooms, value]:
+              selectedRooms.filter((item)=> item !==value)
+              
+              );
+          } else {
+            navigate('/login')
+          }
       };
       
       console.log(selectedRooms)
