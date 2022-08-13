@@ -76,7 +76,8 @@ const Reserve = ({setOpen, hotelId, roomId}) => {
              
          await Promise.all(
             selectedRooms.map(roomId=>{
-              const res = axios.put(`/rooms/availability/${roomId}`, 
+           //   const res = axios.put(`/rooms/availability/${roomId}`, 
+              const res = axios.put(`https://booking1demo.herokuapp.com/api/rooms/availability/${roomId}`, 
                {dates: allDates});
               return res.data
             })
