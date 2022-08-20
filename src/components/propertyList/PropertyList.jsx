@@ -22,7 +22,7 @@ const PropertyList = ({selectType, typeSelected}) => {
 
       "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFwYXJ0bWVudCUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
 
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7WE10cWtTdpaTRJZrrwQ7OEWr9K9oq4eeIhAArWBJBj3wd-OUdnaEkWhW4xpRTMOnGyA&usqp=CAU",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/small-country-homes-for-sale-1520563085.jpg",
 
       "https://media.istockphoto.com/photos/brown-new-construction-craftsman-house-with-siding-with-large-yard-picture-id1158712419?k=20&m=1158712419&s=612x612&w=0&h=JQK8nY-pvDD8g4zRItNgXVTu4t_Q5BTIOzRFY1tzLYM=",
 
