@@ -10,7 +10,7 @@ const PropertyList = ({selectType, typeSelected}) => {
   const images = [
    "https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?k=20&m=1192128830&s=612x612&w=0&h=vnUngjXTKrZ9AJqOqUij7YxiVkzvpHhM_LJidJ5vhDo=",
 
-      "https://media.istockphoto.com/photos/triangular-modern-lake-house-picture-id1296723838?b=1&k=20&m=1296723838&s=170667a&w=0&h=ypMLh0bMVdTYbeaYwUe6HhLVsxEmtHkz42zlAJWWBsU=",
+      "https://media.istockphoto.com/id/1326994520/fr/photo/nous-m%C3%A9ritons-tous-une-nouvelle-pause-de-la-ville.jpg?s=612x612&w=0&k=20&c=GVa0i5CPBRvnB9-rVdoMEmEUxVXpeVc_O9M7hzvJvwc=",
 
       "https://media.istockphoto.com/photos/exclusive-luxury-villa-picture-id1274974475?b=1&k=20&m=1274974475&s=170667a&w=0&h=R8s0_ZnyZGUOEgtYEtzMvSx48osiFtMeSXR0nCFxyAY=",
 
